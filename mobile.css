@@ -1,0 +1,423 @@
+
+@media (max-width: 767px) {
+    
+    
+    .navbar-logo {
+        font-size: 2em; /* Decrease the logo font size for smaller screens */
+    }
+
+    .navbar-links {
+        display: none; /* Hide the links on smaller screens */
+    }
+
+    .sign-in-btn {
+        display: none;
+        margin-right: 0;
+    }
+
+    .hamburger-icon { cursor:pointer;
+        display: inline-flex;
+        margin-right: 10px; /* Add margin to the hamburger icon */
+    }
+
+
+    .show {
+        /* flex-direction: column; */
+        display: flex;
+      }
+      
+      .show {
+        transition: opacity 0.3s ease-in;
+        display: flex;
+        flex-direction: column; /* Change to column to stack the links vertically */
+        align-items: center; /* Center the links horizontally */
+    }
+
+    /* Adjust the width and margin of the navbar links to stack them vertically */
+    .navbar-links {
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .navbar-links a {
+        padding: 8px 0;
+        width: auto;
+        margin: 0;
+    }
+
+
+    /* hero section */
+    .hero{
+       
+        flex-wrap:wrap;
+       
+    }    
+
+    .hero-lft{
+        /* margin-left: 5%; */
+        justify-content:center ;
+        align-items:center;
+        width:100%;
+      }
+
+    .hero h1{
+        width: 100%;
+        margin-top: 4%;
+        font-size:3rem;
+        text-align: center;
+        align-content:center;
+        font-size: 4em;
+        font-weight: 800;
+      }
+
+    .hero h4{
+        font-size:1.5em;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        width: fit-content;
+    } 
+
+    
+    .hero-lft button{
+        font-size: 1.4em;
+        text-align: center;
+        justify-content: center;
+        margin-top: 3%;
+        margin-left:250px ;
+    }
+
+    
+    .hero-img img{
+
+        margin-top: 5%;
+        margin-left: 10%;
+        align-items: center;
+        justify-content: center;
+        width: 600px ;
+    
+    }
+    
+    /* brands */
+    
+    .brands{
+        
+        align-items: center;
+        justify-content: center;
+        align-content:center;
+    }
+
+    .brand-logos{
+        margin-top: 6%;
+        gap: 70px; 
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+    
+        
+    .logo img{
+        align-items: center;
+        justify-content: center;
+        width: 10em;
+        
+    }
+
+
+    /* for ur bussiness */
+
+
+    .for-ur{
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15%;
+    }      
+    
+       
+.for-ur h2 {
+
+    font-size: 3.6em;
+} 
+    
+.for-ur p{
+    font-weight: 300;
+    padding-top: 2%;
+    text-align: center;
+    width: 55%;
+    font-size: 1.2em;
+  }
+    
+
+  /* features */
+
+    
+
+    .descrip{
+
+        width:200px;
+    }
+
+    
+    .descrip h3 {
+        font-size: 1rem;
+    }
+  
+
+
+}
+
+
+
+
+
+
+
+/* mobile */
+
+
+
+@media screen and (max-width:400px){
+
+    .navbar-logo img{
+
+        width: 80px;
+      
+      }
+
+    .hero h1{
+
+        font-size: 2.5em;
+
+    }
+
+    .hero h4{
+
+        font-size: 1em;
+
+    }
+
+    
+    .hero-lft button{
+        height: 3em;
+        width: 12em;
+
+        margin-left:80px ;
+        font-size: 1em;
+        
+    }
+
+    .hero-img img{
+        margin-top: 3vh;
+        width: 350px ;
+        margin-left: 1.2%;
+        
+    }
+
+
+    .logo img{
+        width:7em;
+    }
+
+    .for-ur h2 {
+
+        font-size: 2em;
+    } 
+     
+
+    .for-ur p{
+        font-weight: 300;
+        padding-top: 1%;
+        padding: 12px;
+        text-align: center;
+        width: 100%;
+        font-size: 1em;
+      }
+
+      /* features */
+
+      .features{
+        width: 100%;
+      }
+
+      /* left and right  */
+
+    .left{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+
+    .left img{
+        margin-top: 5%;
+        width: 90%;
+        margin-left: 1%;
+        padding: 0%;
+    }
+
+    .left-des {
+            
+        margin-top: -10%;
+          
+    }
+
+    .left-des h2{
+        font-size: 2.2em;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .left-des p{
+       
+       
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        /* margin-left:14% ; */
+        width: 100%;
+    }
+
+    .left button{
+        
+        background: #007bff;
+        border-radius:10px;
+        border-style: none;
+        color: #fff;
+        padding: 2% 8%;
+        margin-top: 4%;
+        font-size: 1em;
+        font-weight: 600;
+        margin-left: 30%;
+      }
+
+
+    .right{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    } 
+    
+    .right img{
+        width: 90%;
+        margin-top: 4%;
+        margin-left:2%;
+       margin-right: 0%;
+    }
+
+    .right-des{
+        margin-top: -10%;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        width: 100%;
+
+    }
+
+    .right-des h2{
+
+        
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .right-des p{
+        
+        padding-right: 5%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        margin-left: 0%;
+        /* margin-right: 10%; */
+        width: 100%;;
+    }
+
+    .right button{
+        
+        background: #007bff;
+        border-radius:10px;
+        border-style: none;
+        color: #fff;
+        padding: 2% 8%;
+        margin-top: 4%;
+        font-size: 1em;
+        font-weight: 600;
+        margin-left: 28%;
+            
+    }
+   
+    /* trusted by ... */
+    .trusted-by h2{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size:2em;
+        width:100% ;
+        margin-bottom: 6%;
+
+    }
+
+    /* tes.testimonial */
+
+
+   
+    
+    .testimonial {
+         width: 40%;
+         height:20% ;
+         margin-top: 8%;
+         margin-left: 30%;
+      }
+      
+      .testimonial img{
+        padding-top:30%;
+        /* width:100%; */
+        display:none;
+      }  
+
+    .testimonial p{
+        
+        font-size: 0.5em;
+    }
+
+    /* foter */
+
+   
+    footer{padding: 1%;
+        
+        width: 100%;
+        justify-content: center;
+        justify-self: center;
+        color: #007bff;
+        height: 650px;
+    }
+
+      .column {
+        width: 100%;
+        flex-basis: calc(50% - 20px);
+        flex: 2;
+        margin: 2%;
+      }
+      
+      h3 {
+        font-size: 16px;
+        margin-bottom: 100px;
+      }
+      
+      p {
+        font-size: 14px;
+        margin: 5px 0;
+      }
+      
+      
+}
